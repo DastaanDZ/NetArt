@@ -1,0 +1,18 @@
+.footer{
+    padding-top:2rem ;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    font-size: 1.8rem;
+margin: 0 9px;
+}
+.footer_detail{
+    margin-bottom: 0px;
+}

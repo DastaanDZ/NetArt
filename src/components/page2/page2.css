@@ -1,0 +1,51 @@
+.page2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page2_details{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.product_container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding:0 10rem; */
+}
+.product{
+   width: 100%;
+}
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: red;
+    border: 0px;
+}
+hr.vertical{
+    color: red;
+    height: 22px;
+    margin: 0 5px;
+    width: 0px;
+}
+.line_para{
+    display: flex;
+height: auto;
+width: 100%;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+
+}
+.line_detail{
+    display: block ruby;
+text-align: center;
+margin: 0px;
+}

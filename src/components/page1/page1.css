@@ -1,0 +1,40 @@
+.page1{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+.left{
+    width: 30%;
+object-fit: cover;
+object-position: center;
+}
+.prize{
+    height: 40rem;
+}
+.right{
+    width: 70%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: left;
+padding: 0 10rem;
+}
+.ceremony{
+    height: 29rem;
+}
+h1{
+    font-size: 1rem;
+text-align: left;
+width: 100%;
+}
+ul{
+    width: 100%;
+    margin-top: 0px;
+line-height: 19px;
+padding-left: 4rem;
+}
+.details{
+    line-height: 19px;
+}
