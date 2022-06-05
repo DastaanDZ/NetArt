@@ -1,9 +1,11 @@
 .footer{
+    height: 10vh;
     padding-top:2rem ;
     background-color: red;
     color: white;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 1rem;
 }
 .phone{
     display: flex;

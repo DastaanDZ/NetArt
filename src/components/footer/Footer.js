@@ -1,10 +1,10 @@
 import React from 'react'
 import './footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircle} from '@fortawesome/free-solid-svg-icons'
+import { faPhone} from '@fortawesome/free-solid-svg-icons'
 // import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 // import { library } from '@fortawesome/fontawesome-svg-core'
-
+import { BsFacebook,BsGlobe2 } from "react-icons/bs";
 // library.add(faCircle, faFacebook, faGlobe)
 
 const Footer = () => {
@@ -12,16 +12,16 @@ const Footer = () => {
     <>
         <div className="footer">
         <div className="phone"> 
-        <FontAwesomeIcon icon={faCircle} className='icon' />
+        <FontAwesomeIcon icon={faPhone} className='icon'/>
         <p className='footer_detail'>Toll free 1800 200 1234</p>
         </div>
         <div className="phone"> 
-        <FontAwesomeIcon icon={faCircle} className='icon'/>
-        <p className='footer_detail'>Toll free 1800 200 1234</p>
+        <BsFacebook className='icon'/>
+        <p className='footer_detail'>www.facebook.com/cripumps</p>
         </div>
         <div className="phone"> 
-        <FontAwesomeIcon icon={faCircle} className='icon'/>
-        <p className='footer_detail'>Toll free 1800 200 1234</p>
+        <BsGlobe2 className='icon'/>
+        <p className='footer_detail'>www.crigroups.com</p>
         </div>
         </div>
 

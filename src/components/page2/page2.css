@@ -49,3 +49,8 @@ margin-bottom: 2rem;
 text-align: center;
 margin: 0px;
 }
+@media (max-width: 768px) {
+    .product_container{
+        width: 100%;
+    }
+}
