@@ -1,28 +1,25 @@
 .page1{
     display: flex;
 align-items: center;
-justify-content: center;
-width: 100%;
+justify-content: space-between;
+width: 98%;
 }
 .left{
     width: 30%;
-object-fit: cover;
-object-position: center;
 }
 .prize{
-    height: 40rem;
+    width: 100%;
 }
 .right{
-    width: 70%;
+    width: 60%;
     display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 text-align: left;
-padding: 0 10rem;
 }
 .ceremony{
-    height: 29rem;
+    width: 100%;
 }
 h1{
     font-size: 1rem;
@@ -33,8 +30,56 @@ ul{
     width: 100%;
     margin-top: 0px;
 line-height: 19px;
-padding-left: 4rem;
 }
 .details{
     line-height: 19px;
+}
+@media (max-width: 1220px) {
+    h1{
+        font-size: 13px;
+    }
+    ul{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1{
+        font-size: 10px;
+    }
+    ul{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 1rem;
+    }
+    ul{
+        font-size: 1rem;
+    }
+    .page1{
+        width: 95%;
+        flex-direction: column-reverse;
+    }
+    .left,.right{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .prize{
+
+        height: 20rem;
+        width: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    h1{
+        font-size: 15px;
+    }
+    ul{
+        font-size: 15px;
+    }
 }
