@@ -1,11 +1,11 @@
 .footer{
-    height: 10vh;
+    height: auto;
     padding-top:2rem ;
     background-color: red;
     color: white;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 .phone{
     display: flex;
@@ -17,4 +17,12 @@ margin: 0 9px;
 }
 .footer_detail{
     margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+    .footer{ 
+
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-start;
+    }
 }
